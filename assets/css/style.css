@@ -35,7 +35,6 @@ a {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #e6f3e6;
     /* Same as hero background */
     z-index: 9999;
     display: flex;
@@ -145,6 +144,7 @@ a {
 }
 
 .hero-section .hero-background {
+    /* Same as hero background */
     background-color: #e6f3e6; /* Pale green */
 }
 
@@ -164,10 +164,8 @@ a {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #e6f3e6;
-    /* Pale green */
     overflow: hidden;
-    /* To contain the canvas */
+    /* To contain the sparkles */
 }
 
 .hero-background canvas {
@@ -388,8 +386,7 @@ a {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-color: #e6f3e6;
-    /* Pale green */
+    /* Same as hero background */
     margin: 0 auto 20px;
     display: flex;
     justify-content: center;
