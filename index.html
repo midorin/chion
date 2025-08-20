@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>知温 (Chion) - ボディケア・ボディリペア</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Shippori+Mincho&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="loading-overlay">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <header class="site-header">
+        <div class="logo-container">
+            <a href="/">
+                <picture>
+                    <source srcset="assets/images/logo.png" type="image/png" media="(min-width: 768px)">
+                    <img src="assets/images/logo_sp.png" alt="知温 Chion">
+                </picture>
+
+            </a>
+        </div>
+        <button class="hamburger-menu" aria-label="メニューを開く">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="global-nav">
+            <ul>
+                <li><a href="#catch">Top</a></li>
+                <li><a href="#column">Column</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#access">Access</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="catch" class="hero-section">
+            <div class="hero-background">
+                <canvas id="hero-canvas"></canvas>
+            </div>
+            <div class="hero-content">
+                <p class="background-text">Body Repair</p>
+                <div class="vertical-text">
+                    <h1 class="catchphrase">
+                        「身体の修復」を意味する言葉。<br>
+                        古来から受け継がれ、<br>
+                        進化してきた整体のテクニックを駆使し、<br>
+                        本来の自然治癒力を高め、<br>
+                        ベストコンディションへと近づけます。
+                    </h1>
+                </div>
+            </div>
+            <a href="#column" class="scroll-down-icon">
+                <div class="mouse-icon">
+                    <div class="wheel"></div>
+                </div>
+                <span>SCROLL</span>
+            </a>
+        </section>
+
+        <section id="column" class="column-section">
+            <div class="hero-background">
+                <canvas id="column-canvas"></canvas>
+            </div>
+            <div class="container">
+                <p class="section-subtitle">Column</p>
+                <h2>最新コラム</h2>
+                <div class="column-list">
+                    <article class="column-item">
+                        <header class="column-header">
+                            <time datetime="2024-08-06">2024.08.06</time>
+                            <span class="category">セルフケア</span>
+                        </header>
+                        <h3 class="column-title"><a href="#">夏バテに効く、簡単なセルフケアの方法についてご紹介します。</a></h3>
+                        <p class="column-excerpt">夏バテは、暑さによる体力の消耗や、室内外の温度差による自律神経の乱れが原因で起こります。今回は、自宅で簡単にできる…</p>
+                    </article>
+                    <article class="column-item">
+                        <header class="column-header">
+                            <time datetime="2024-08-01">2024.08.01</time>
+                            <span class="category">食事</span>
+                        </header>
+                        <h3 class="column-title"><a href="#">内臓の働きを助ける、夏の食事法とは？管理栄養士が解説。</a></h3>
+                        <p class="column-excerpt">夏は冷たいものを摂りがちで、内臓に負担がかかりやすい季節です。今回は、内臓の働きを助け、夏を元気に乗り切るための…</p>
+                    </article>
+                    <article class="column-item">
+                        <header class="column-header">
+                            <time datetime="2024-07-25">2024.07.25</time>
+                            <span class="category">豆知識</span>
+                        </header>
+                        <h3 class="column-title"><a href="#">骨盤の歪みが引き起こす、さまざまな身体の不調について。</a></h3>
+                        <p class="column-excerpt">骨盤は身体の土台となる重要な部分です。骨盤が歪むと、腰痛や肩こりだけでなく、さまざまな不調を引き起こす可能性が…</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="service" class="service-section">
+            <div class="container service-container">
+                <div class="service-info">
+                    <h2>Service</h2>
+                    <a href="#" class="button">詳しくはこちら</a>
+                </div>
+                <div class="service-grid">
+                    <div class="service-item">
+                        <div class="service-icon"><img src="assets/images/icon-01.svg" alt="脳もみ"></div>
+                        <h3>脳もみ</h3>
+                        <p>頭部の筋肉を優しくほぐし、眼精疲労やストレスを和らげます。</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon"><img src="assets/images/icon-02.svg" alt="脳もみ"></div>
+                        <h3>内臓もみ</h3>
+                        <p>腹部をゆっくりと刺激し、内臓の働きを活性化させます。</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon"><img src="assets/images/icon-03.svg" alt="脳もみ"></div>
+                        <h3>骨盤調整</h3>
+                        <p>身体の土台である骨盤の歪みを整え、全身のバランスを改善します。</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon"><img src="assets/images/icon-04.svg" alt="脳もみ"></div>
+                        <h3>バランス</h3>
+                        <p>独自のメソッドで、心と身体の全体的な調和を取り戻します。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="access" class="site-footer-main">
+            <div class="hero-background">
+                <canvas id="access-canvas"></canvas>
+            </div>
+            <div class="footer-background"></div>
+            <div class="footer-overlay"></div>
+            <div class="container footer-container">
+                <div class="map-info">
+                    <div class="map-image">
+                        <img src="assets/images/map.png" alt="店舗周辺の地図">
+                    </div>
+                    <div>
+                        〒101-0044<br>
+                        東京都千代田区神田北乗物町18 朝比奈ビル2F<br>
+                        JR神田駅 東口 徒歩3分
+                    </div>
+                </div>
+                <div class="map-embed">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.367987661255!2d139.77161651525915!3d35.692561080191616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188eaa134efc17%3A0x3a759b7b8a0f2421!2z44CSMTAxLTAwMzYg5p2x5Lqs6YO95Y2D5Luj55Sw5Yy656We55Sw5YyX5LmX54mp55S677yR77yY!5e0!3m2!1sja!2sjp!4v1588753003893!5m2!1sja!2sjp"
+                        width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="https://unpkg.com/three@0.142.0/build/three.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="assets/js/common.js"></script>
+</body>
+
+</html>
